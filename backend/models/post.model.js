@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const postSchema = mongoose.Schema(
   {
     message: {
-      type: Sting,
+      type: String,
       required: true,
     },
     autor: {
